@@ -26,6 +26,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ###############################################################################
 
 import rosegraphics as rg
+#  right click --- Mark directories as --- root ( cancel red lines below)
 
 ###############################################################################
 #
