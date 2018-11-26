@@ -9,12 +9,11 @@ Concepts include:
 Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
-Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+Authors: Jingyi.Jia(Alan)
 """
 ###############################################################################
 #
-# TODO: 1.
+# Done: 1.
 #   Yes, that means for YOU to DO things per the following instructions:
 #
 #   On Line 13 above, replace  PUT_YOUR_NAME_HERE  with your OWN name.
@@ -24,13 +23,10 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   can make sense of.  It has no other effect on this program.
 #
 ###############################################################################
-
 import rosegraphics as rg
-#  right click --- Mark directories as --- root ( cancel red lines below)
-
 ###############################################################################
 #
-# TODO: 2.
+# Done: 2.
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
 #   folder in this project as a "Sources Root", as follows:
@@ -46,10 +42,10 @@ import rosegraphics as rg
 #   change this _TODO_ to DONE and  ** continue to the next _TODO_ (below). **
 #
 ###############################################################################
-
+#  right click --- Mark directories as --- root ( cancel red lines below)
 ###############################################################################
 #
-# TODO: 3.
+# Done: 3.
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving,
 #      ** click anywhere in the window to close the window **.
@@ -127,6 +123,9 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
+
+natasha.draw_circle(30)
+
 
 ###############################################################################
 #
