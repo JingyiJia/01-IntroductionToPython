@@ -113,7 +113,7 @@ natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
-# TODO: 4.
+# Done: 4.
 #   Add a few more lines of your own code to make one of the existing
 #   SimpleTurtles move some more and/or have different characteristics.
 #
@@ -124,7 +124,16 @@ natasha.go_to(rg.Point(-100, 200))
 #
 ###############################################################################
 
-natasha.draw_circle(30)
+natasha.right(90)
+natasha.forward(90)
+natasha.speed = 10
+natasha.pen = rg.Pen('gold', 6)
+for k in range(2):
+    natasha.draw_circle(20+10*k)
+window.delay(20)
+for k in range(3):
+    natasha.draw_circle(60-10*k)
+# Let natasha rotate 3 times and rotate back!
 
 
 ###############################################################################
@@ -153,7 +162,7 @@ natasha.draw_circle(30)
 #   As always, test by running the module.
 #
 ###############################################################################
-
+Alan = rg.SimpleTurtle()
 ###############################################################################
 #
 # TODO: 6.

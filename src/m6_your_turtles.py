@@ -1,11 +1,10 @@
 """
 Your chance to explore Loops and Turtles!
 
-Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+Authors: Jingyi. Jia
 """
 ########################################################################
-# TODO: 1.
+# Done: 1.
 #   On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ########################################################################
 
@@ -28,3 +27,4 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
+rg.Simpleturtle
