@@ -138,7 +138,7 @@ for k in range(3):
 
 ###############################################################################
 #
-# TODO: 5.
+# Done: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -162,10 +162,11 @@ for k in range(3):
 #   As always, test by running the module.
 #
 ###############################################################################
-Alan = rg.SimpleTurtle()
+Alan = rg.SimpleTurtle('turtle')
+James = rg.SimpleTurtle('turtle')
 ###############################################################################
 #
-# TODO: 6.
+# Done: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #
