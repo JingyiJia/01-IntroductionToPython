@@ -27,4 +27,36 @@ Authors: Jingyi. Jia
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
-rg.Simpleturtle
+import rosegraphics as rg
+import math
+window = rg.TurtleWindow()
+Jingyi = rg.SimpleTurtle('turtle')
+Jingyi.pen_up()
+Jingyi.left(90)
+Jingyi.forward(250)
+Jingyi.pen_down()
+Jingyi.pen = rg.Pen('black',6)
+Jingyi.speed = 1
+def Jingyi(self):
+    self.fillcolor("red")
+    self.begin_fill()
+Jingyi.left(90)
+Jingyi.forward(60)
+Jingyi.left(45)
+Jingyi.forward(40)
+Jingyi.left(135)
+Jingyi.forward(2*40/math.sqrt(2)+60)
+Jingyi.left(135)
+Jingyi.forward(40)
+Jingyi.speed = 100
+Jingyi.pen_up()
+Jingyi.left(135)
+Jingyi.forward(40/math.sqrt(2))
+Jingyi.right(90)
+Jingyi.forward(30)
+Jingyi.pen_down()
+Jingyi.fill(True)
+Jingyi.begin_fill()
+
+
+window.close_on_mouse_click()
