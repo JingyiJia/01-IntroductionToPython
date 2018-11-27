@@ -10,7 +10,7 @@ Authors: Jingyi. Jia(Alan)
 
 ########################################################################
 #
-# TODO: 2.
+# Done: 2.
 #   Write code that accomplishes the following (and ONLY the following),
 #   in the order listed:
 #
@@ -40,5 +40,22 @@ Authors: Jingyi. Jia(Alan)
 #
 #   As always, test by running the module.
 #   As always, COMMIT-and-PUSH when you are done with this module.
-#
-########################################################################
+###########################################################################
+import rosegraphics as rg
+window = rg.TurtleWindow()
+Alan = rg.SimpleTurtle('turtle')
+Alan.pen = rg.Pen('blue',10)
+Alan.left(90)
+Alan.forward(200)
+Alan.pen_up()
+Alan.left(180)
+Alan.forward(240)
+Alan.right(90)
+Alan.forward(100)
+Alan.pen_down()
+Alan.pen = rg.Pen('green', 10)
+Alan.left(90)
+Alan.forward(150)
+window.close_on_mouse_click()
+###########################################################################
+
