@@ -99,3 +99,4 @@ for k in range(2):
     Jingyi.left(180)
     Jingyi.forward(90)
 window.close_on_mouse_click()
+# A snowman completes!
