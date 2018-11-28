@@ -102,6 +102,8 @@ print(math.sin)
 print(print)
 print(math)
 print('math')
+import math
+
 ###############################################################################
 #
 #   Done: 6.
